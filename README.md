@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Hub - Plataforma de Vendas de Veículos
 
-## Getting Started
+## Descrição do Projeto
 
-First, run the development server:
+O Car Hub é uma plataforma de vendas de veículos online que conecta compradores e vendedores de forma fácil e segura. Através desta plataforma, os usuários podem encontrar uma variedade de veículos disponíveis para compra, desde carros novos a usados e muito mais. O objetivo do Car Hub é proporcionar uma experiência conveniente e confiável para os clientes que desejam comprar ou vender veículos.
+
+## Funcionalidades
+
+### 1. Catálogo de Veículos
+
+O Car Hub possui um amplo catálogo de veículos disponíveis para os usuários explorarem. Eles podem filtrar os resultados com base em suas preferências, como marca, modelo, ano, preço e quilometragem. Cada veículo listado apresenta informações detalhadas, fotos e contato do vendedor.
+
+### 2. Pesquisa Avançada
+
+Os usuários podem utilizar a pesquisa avançada para refinar ainda mais seus resultados. A pesquisa avançada permite procurar veículos com base em características específicas, como tipo de combustível, transmissão, cor e muito mais.
+
+### 3. Anunciar Veículo
+
+Os vendedores têm a opção de anunciar seus veículos na plataforma. Eles podem adicionar detalhes completos, incluindo descrição, fotos, preço e informações de contato. Após a aprovação, o anúncio ficará visível para os potenciais compradores.
+
+## Tecnologias Utilizadas
+
+O Car Hub foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
+
+- React
+- Next.js
+- Tailwindcss
+
+## Como Executar o Projeto
+
+1. Clone este repositório em sua máquina local.
+2. Certifique-se de ter o Node.js e o npm (ou yarn) instalados.
+3. Instale as dependências do projeto utilizando o seguinte comando:
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+4. Configure a conexão com o banco de dados MongoDB. Crie um arquivo `.env` na raiz do projeto e insira a URL de conexão:
+
+```
+IMAGIN_API_KEY=<sua-chave-imagin>
+```
+
+5. Inicie o servidor e o cliente do Car Hub simultaneamente com o seguinte comando:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. O projeto estará disponível em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Agora você pode acessar a plataforma Car Hub e explorar os veículos disponíveis, além de aproveitar todas as funcionalidades para comprar ou vender seu carro com facilidade!
